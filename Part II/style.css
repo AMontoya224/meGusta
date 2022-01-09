@@ -1,0 +1,107 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+.nav{
+    margin: 0px 363px; 
+    padding: 0px 40px;
+    background-color:rgb(27, 28, 29);
+    border-radius: 3px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.nav-title:hover{
+    color: darkcyan;
+}
+
+.all{
+    display: flex;
+    justify-content:center;
+}
+
+.contenedor-1{
+    margin: 10px;
+    width: 350px;
+    border: 3px solid rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 20px;
+}
+
+.sub-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes{
+    background-color: rgb(231, 199, 117);
+    color: rgb(31, 29, 29);
+    width: 60px;
+    height: 30px;
+    border-color: rgb(31, 29, 29);
+    box-shadow: 3px 5px 0 0 rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#contador1{
+    margin-left: 75px;
+}
+
+#contador2{
+    margin-left: 40px;
+}
+
+#contador3{
+    margin-left: 80px;
+}
+
+
+.likes:hover{
+    background-color: rgb(122, 97, 32);
+}
+
+.text-1, .text-2{
+    font-weight: normal;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.foto{
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 0px 50px 20px 50px;
+}
+
+.foto:hover{
+    border: 3px solid darkcyan;
+}
+
+.contenedor-0{
+    margin: 10px;
+    width: 180px;
+    height: 200px;
+    border: 3px solid rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 30px 10px 20px 10px;
+    align-items: center;
+    text-align: center;
+}
+
+span{
+    color: rgb(21, 21, 196);
+    text-decoration: underline;
+}

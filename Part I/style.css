@@ -1,0 +1,42 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+.contenedor{
+    margin: 30px 50px;
+    width: 350px;
+    border: 3px solid rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 20px;
+}
+
+.sub-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes{
+    background-color: rgb(231, 199, 117);
+    color: rgb(31, 29, 29);
+    width: 60px;
+    height: 30px;
+    border-color: rgb(31, 29, 29);
+    box-shadow: 3px 5px 0 0 rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contador{
+    margin-left: 40px;
+}
+
+.likes:hover{
+    background-color: rgb(122, 97, 32);
+}
+
+.text-1, .text-2{
+    font-weight: normal;
+}
