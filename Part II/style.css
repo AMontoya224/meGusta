@@ -48,7 +48,6 @@ body{
 .likes{
     background-color: rgb(231, 199, 117);
     color: rgb(31, 29, 29);
-    width: 60px;
     height: 30px;
     border-color: rgb(31, 29, 29);
     box-shadow: 3px 5px 0 0 rgb(31, 29, 29);
@@ -58,21 +57,18 @@ body{
     font-weight: bold;
 }
 
-#contador1{
-    margin-left: 75px;
-}
-
-#contador2{
-    margin-left: 40px;
-}
-
-#contador3{
-    margin-left: 80px;
-}
-
-
 .likes:hover{
     background-color: rgb(122, 97, 32);
+}
+
+.text-1{
+    flex: 4;
+}
+.likes{
+    flex: 1;
+}
+.contador{
+    flex: 2;
 }
 
 .text-1, .text-2{
